@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>cafe.H</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <style>
+      .nav {
+        height: 50px;
+        border-bottom: 3px solid black;
+        display: flex;
+        align-items: center;
+        }
+
+      .nav-item {
+        margin-left: 10px;
+        border-radius: 4px;
+        }
+
+      .title {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: #88C8FF;
+        }
+
+      .subtitle {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-top: 30px;
+        }
+
+      .main {
+        width: 1300px;
+        margin: 0 auto;
+        margin-top: 20px;
+        }
+
+      form {
+      text-align: center;
+      margin-top: 30px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="nav">
+      <div class="company-name">
+      실무프로젝트1 20204339 조한슬
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="title">
+        Login page
+      </div>
+      <div class="subtitle">
+        주문을 위해 로그인을 해주세요.
+      </div>
+    </div>
+
+    <div>
+      <form name="loginForm" method="POST" action="cafe2_select.jsp">
+				<input type="text" name="username" />
+				<input type="submit" value="로그인" />
+			</form>
+		</div>
+ </body>
+</html>

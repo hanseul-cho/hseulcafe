@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>cafe.H</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+
+    .img {
+      position: relative;
+      background-image: url(cafe2image.jpg);
+      height: 100vh;
+      background-size: cover;
+    }
+
+    .img-cover{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.46);
+      z-index: 1;
+    }
+
+      .img .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+        color: white;
+        z-index: 2;
+        text-align: center;
+      }
+
+      .enter  {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 15px;
+      border-radius: 5px;
+      margin-left: auto;
+    }
+
+
+  </style>
+  </head>
+
+    <body>
+      <div class="img">
+        <div class="content">
+          <h1>WELCOME, 환영합니다</h1>
+          <h2>메뉴를 확인하세요 :)</h2>
+          <a href="cafe2_cod.html"><button class="enter">
+           메뉴판 보기
+          </button></a>
+        </div>
+      <div class="img-cover"></div>
+      </div>
+    </body>
+  </html>

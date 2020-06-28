@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>cafe.H</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .nav {
+        height: 50px;
+        border-bottom: 3px solid black;
+        display: flex;
+        align-items: center;
+        }
+      .nav-right-items {
+        display: flex;
+        margin-right: auto;
+        margin-left: 10px;
+      }
+      .nav-item {
+        border-radius: 4px;
+        display: flex;
+        margin-left: auto;
+      }
+      .title {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: #88C8FF;
+      }
+      .subtitle {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+      .main {
+        width: 1300px;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+      .menus {
+        display: flex;
+        margin-top: 20px;
+      }
+      .menu-item {
+        width: 300px;
+        height: 1450px;
+        border: 1px solid black;
+        margin: 20px;
+        border-radius: 4px;
+        text-align: center;
+      }
+      .menu-item-title {
+        font-size: 1.5rem;
+        background: rgba(0,0,0,.03);
+        height: 53px;
+        line-height: 53px;
+        border-bottom: 1px solid black;
+      }
+      .menu-item-subtitle {
+        font-size: 2rem;
+        border-top: 2px solid black;
+        font-weight: bold;
+        padding: 10px;
+      }
+      .menu-item-price  {
+        font-size: 1rem;
+        border-bottom: 1px solid black;
+        text-decoration: wavy underline;
+        padding: 10px;
+      }
+      .menu-item-button {
+        padding: .5rem 1rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+        line-height: 0.5;
+        border-radius: .3rem;
+        color: #7F00D4;
+        background-color: #FFEEFF;
+        background-image: none;
+        border-color: #FFB8E6;
+        margin-top: 20px;
+      }
+      </style>
+
+  </head>
+  <body>
+    <div class="nav">
+      <div class="company-name">
+      실무프로젝트1 20204339 조한슬
+      </div>
+      <div class="nav-item">
+        <a href="cafe2_login.html"><button class="nav-right-items">로그인</button></a>
+        <a href="cafe2_checkout.jsp"><button class="nav-right-items">장바구니</button></a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="title">
+        Cafe
+      </div>
+      <div class="subtitle">
+        <i>골라보세요</i>
+      </div>
+      </div>
+      <div class="menus">
+        <div class="menu-item">
+           <div class="menu-item-title">
+            <b>Coffee</b>
+           </div>
+            <div class="menu-item-subtitle">
+              아메리카노
+            </div>
+            <div class="menu-item-price">
+              4000원
+            </div> <br>
+            <img src="americano.jpg" height="200" alt="아메리카노 이미지">
+            <div class="menu-item-subtitle">
+              아인슈페너
+            </div>
+            <div class="menu-item-price">
+              5500원
+            </div> <br>
+            <img src="einspanner.jpg" height="200" alt="아인슈페너 이미지">
+
+            <div class="menu-item-subtitle">
+              녹차라떼
+            </div>
+            <div class="menu-item-price">
+              5000원
+            </div> <br>
+            <img src="greentea-latte.jpg" height="200" alt="녹차라떼 이미지">
+
+            <div class="menu-item-subtitle">
+              초코라떼
+            </div>
+            <div class="menu-item-price">
+              5000원
+            </div> <br>
+            <img src="choco-latte.jpg" height="200" alt="초코라떼 이미지">
+
+        </div>
+
+         <div class="menu-item">
+          <div class="menu-item-title">
+           <b>Tea</b>
+          </div>
+            <div class="menu-item-subtitle">
+              녹차
+            </div>
+            <div class="menu-item-price">
+              4000원
+            </div> <br>
+            <img src="greentea.jpg" height="200" alt="녹차 이미지">
+
+            <div class="menu-item-subtitle">
+              캐모마일
+            </div>
+            <div class="menu-item-price">
+              4000원
+            </div> <br>
+            <img src="chamomile.jpg" height="200" alt="캐모마일 이미지">
+
+            <div class="menu-item-subtitle">
+              귤
+            </div>
+            <div class="menu-item-price">
+              4500원
+            </div> <br>
+            <img src="citrus.jpg" height="200" alt="귤 이미지">
+
+            <div class="menu-item-subtitle">
+              히비스커스
+            </div>
+            <div class="menu-item-price">
+              4500원
+            </div> <br>
+            <img src="rose-of-china.jpg" height="200" alt="히비스커스 이미지">
+
+          </div>
+
+         <div class="menu-item">
+           <div class="menu-item-title">
+            <b>Ade</b>
+           </div>
+            <div class="menu-item-subtitle">
+              체리
+            </div>
+            <div class="menu-item-price">
+              5000원
+            </div> <br>
+            <img src="cherry.jpg" height="200" alt="체리에이드 이미지">
+
+            <div class="menu-item-subtitle">
+              레몬
+            </div>
+            <div class="menu-item-price">
+              5000원
+            </div> <br>
+            <img src="lemon.jpg" height="200" alt="레몬에이드 이미지">
+
+            <div class="menu-item-subtitle">
+              청포도
+            </div>
+            <div class="menu-item-price">
+              5000원
+            </div> <br>
+            <img src="greengrape.jpg" height="200" alt="청포도에이드 이미지">
+
+            <div class="menu-item-subtitle">
+              자몽
+            </div>
+            <div class="menu-item-price">
+              5000원
+            </div> <br>
+            <img src="grapefruit.jpg" height="200" alt="자몽에이드 이미지">
+
+          </div>
+
+        <div class="menu-item">
+           <div class="menu-item-title">
+           <b>Food</b>
+           </div>
+            <div class="menu-item-subtitle">
+              스콘
+            </div>
+            <div class="menu-item-price">
+              4000원
+            </div> <br>
+            <img src="scone.jpg" height="200" alt="스콘 이미지">
+
+            <div class="menu-item-subtitle">
+              마카롱
+            </div>
+            <div class="menu-item-price">
+              개당 2500원
+            </div> <br>
+            <img src="macaron.jpg" height="200" alt="마카롱 이미지">
+
+            <div class="menu-item-subtitle">
+              녹차파운드
+            </div>
+            <div class="menu-item-price">
+              3500원
+            </div> <br>
+            <img src="greenteapound.jpg" height="200" alt="녹차파운드 이미지">
+
+            <div class="menu-item-subtitle">
+             감자 샌드위치
+            </div>
+            <div class="menu-item-price">
+              6000원
+            </div> <br>
+            <img src="potatosandwich.jpg" height="200" alt="감자샌드위치 이미지">
+
+        </div>
+
+      </div>
+    <script src="script.js"></script>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5eca14d8c75cbf1769eec88f/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<p>
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://cafe-11-week.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+  </p>
+ </body>
+</html>
